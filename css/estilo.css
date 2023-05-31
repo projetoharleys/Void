@@ -1,0 +1,106 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    padding: 0%;
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    align-items: center;    
+}
+.amor{
+    margin-bottom: 45%;
+}
+.vida{
+    width: 80%;
+    margin:auto;
+    margin-top: 10%;
+    margin-bottom: 10%; 
+}
+.logo{
+    text-align: center;
+}
+.img_logo{
+    width: 30%;
+    margin-right: 50%;
+}
+.itens_menu{
+    text-align: center;
+}
+.itens_menu li{
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+.itens_menu a:link, .itens_menu a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.itens_menu a:hover{
+    background-color: #00fe8a;
+    padding: 0.5%;
+    color: black;
+    border-radius: 10px
+}
+body{
+    background-color: rgb(20, 20, 20);
+
+}
+section{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    margin-top: 0%;
+}
+.frase{
+    float:left;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 4.5em;
+    color:#00fe8a;
+    font-family: 'Fredoka One', cursive;
+    width: 50%;
+    text-align: left;
+    text-indent: 0px;
+}
+
+/*Altera configuração quando a tela for maior que 601 px*/
+@media screen and (min-width:901px) {
+
+    header{
+        background-color:black;
+        flex-direction: row;
+        padding: 1%;
+
+    }
+    .itens_menu{
+        position: absolute;
+        right: 1%;
+        top: 10%;
+        width: 70%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 3%;
+    }
+    .img_logo{
+        margin-right: 30%;
+    }
+
+}
+
+/* Altera configuração quanod a tela está menor que 900px */
+@media screen and (max-width:600px) {
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        }   
+}      

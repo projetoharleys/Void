@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 header{
-    background-color: black;
+    background-color: #ffea92;
     padding: 0%;
     font-family: 'Fredoka One', cursive;
     display: flex;
@@ -12,6 +12,14 @@ header{
 }
 .amor{
     margin-bottom: 45%;
+}
+h1{
+    color: #ffea92;
+    text-align: left;
+    font-size: 2.5em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Bebas Neue', cursive;
 }
 .vida{
     width: 80%;
@@ -30,29 +38,39 @@ header{
     text-align: center;
 }
 .itens_menu li{
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: 2em;
+    line-height: 0.5;
 }
 .itens_menu a:link, .itens_menu a:visited {
-    color: white;
+    color: #280b45;
     text-decoration: none;
 }
 
 .itens_menu a:hover{
-    background-color: #00fe8a;
+    background-color: #280b45;
     padding: 0.5%;
-    color: black;
+    color: white;
     border-radius: 10px
 }
 body{
-    background-color: rgb(20, 20, 20);
+    background-color: #280b45;
 
 }
 section{
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 }
-
+footer{
+    background-color: #ffea92;
+    margin-top: 5%;
+    text-align: center;
+    padding: 3%;
+}
+footer p{
+    color: #280b45;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+}
 .container{
     width: 80%;
     margin:auto;
@@ -60,13 +78,13 @@ section{
 }
 .frase{
     float:left;
-    margin-left: 15%;
-    margin-top: 15%;
-    font-size: 4.5em;
-    color:#00fe8a;
+    margin-left: 0%;
+    margin-top: 8%;
+    font-size: 4em;
+    color: #ffea92;
     font-family: 'Fredoka One', cursive;
-    width: 50%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     text-indent: 0px;
 }
 
@@ -74,7 +92,7 @@ section{
 @media screen and (min-width:901px) {
 
     header{
-        background-color:black;
+        background-color:#ffea92;
         flex-direction: row;
         padding: 1%;
 
@@ -82,8 +100,8 @@ section{
     .itens_menu{
         position: absolute;
         right: 1%;
-        top: 10%;
-        width: 70%;
+        top: 8%;
+        width: 80%;
     }
 
     .itens_menu ul li{

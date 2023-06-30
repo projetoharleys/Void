@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/carrinho.js"></script>
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="img_logo" src="img/Logo.png" alt="">
+        </div>
+        <nav class="itens_menu">
+            <ul>
+                <li><a href="principal.html">Doces</a></li>
+                <li><a href="redirect4.html">Energéticos</a></li>
+                <li><a href="redirect3.html">Contato</a></li>
+                <li class="car-pad"><a href="carrinho.html">
+                    <img src="img/icone-carrinho.png" alt="Carrinho de compras" class="carrinho-icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+    </header>
+    <h1 class="h1-car">Carrinho</h1>
+    <div class="container-table">
+        <table id="cartTable">
+            <thead>
+            <tr>
+                <th>Nome do produto</th>
+                <th>Preço unitário</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">Valor total:</td>
+                <td id="totalValue"></td>
+            </tr>
+            </tfoot>
+        </table>
+        
+        <button onclick="clearCart()">Limpar carrinho</button>
+
+    </div>
+    <div class="btn-pag">
+        <button class="center-button">Finalizar pagamento</button>
+    </div>
+    
+
+    <footer>
+        <p>Desenvolvido por Harley Collor e Gustavo Pimentel</p>
+    </footer>
+</body>
+</html>

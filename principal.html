@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Document</title>
+    <script src="js/carrinho.js"></script>
+    <title>Void</title>
 </head>
 <body>
     <header>
@@ -18,8 +19,10 @@
                 <li><a href="redirect2.html">Doces</a></li>
                 <li><a href="redirect4.html">Energéticos</a></li>
                 <li><a href="redirect3.html">Contato</a></li>
-                <li><a href="redirect5.html"></a></li>
-                <li><a href="redirect.html"></a></li>
+                <li><a href="carrinho.html">
+                    <img src="img/icone-carrinho.png" alt="Carrinho de compras" class="carrinho-icon">
+                    </a>
+                </li>
             </ul>
         </nav>        
     </header>
@@ -27,22 +30,51 @@
         <img class="img_topo" src="img/robot.png" alt="">
         <p class="frase">Venha conhecer os nossos Doces Energéticos</p>
     </figure>
+
     <div class="container">
-        <figure> 
-            <img src="" alt="">
-            <p>Pirulito Void</p>
-            <img src="" alt="">
-            <p>Chiclete Void</p>
-            <img src="" alt="">
-            <p> Bala Void</p>
-            <img src="" alt="">
-            <h1>Chocolate Void</p>
-            <img src="" alt="">
-            <h1></p>
-            <img src="" alt="">
-            <h1></p>
-        </figure>
-    </div>
+        <div class="card">
+            <img style="width: 58%;" src="img/bala.png" alt="Produto 1">
+            <h3>Bala energético</h3>
+            <p>R$ 10,00</p>
+            <button onclick="addToCart('Bala energético', 10)">Adicionar ao carrinho</button>
+        </div>
+    
+        <div class="card">
+            <img style="width: 72%;" src="img/chiclete.png" alt="Produto 1">
+            <h3>Chiclete energético</h3>
+            <p>R$ 15,00</p>
+            <button onclick="addToCart('Chiclete energético', 15)">Adicionar ao carrinho</button>
+        </div>
+    
+        <div class="card">
+            <img src="img/handler-39-1.png" alt="Produto 1">
+            <h3>Pirulito energético</h3>
+            <p>R$ 20,00</p>
+            <button onclick="addToCart('Pirulito energético', 20)">Adicionar ao carrinho</button>
+        </div>
+    
+        <div class="card">
+            <img style="width: 58%;" src="img/bala.png" alt="Produto 1">
+            <h3>Bala energético premium</h3>
+            <p>R$ 25,00</p>
+            <button onclick="addToCart('Bala energético premium', 25)">Adicionar ao carrinho</button>
+        </div>
+    
+        <div class="card">
+            <img style="width: 72%;" src="img/chiclete.png" alt="Produto 1">
+            <h3>Chiclete energético premium</h3>
+            <p>R$ 30,00</p>
+            <button onclick="addToCart('Chiclete energético premium', 30)">Adicionar ao carrinho</button>
+        </div>
+    
+        <div class="card">
+            <img src="img/handler-39-1.png" alt="Produto 1">
+            <h3>Pirulito energético premium</h3>
+            <p>R$ 35,00</p>
+            <button onclick="addToCart('Pirulito energético', 35)">Adicionar ao carrinho</button>
+        </div>
+    </div>   
+
     <footer>
         <p>Desenvolvido por Harley Collor e Gustavo Pimentel</p>
     </footer>
